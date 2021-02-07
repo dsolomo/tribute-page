@@ -1,3 +1,10 @@
+/* @media (max-width: 300px) {
+    image {
+        max-width: 100%;
+        max-height: auto;
+    }
+}
+ */
 html {
     background-color: white;
     font-size: 13px;
@@ -28,11 +35,15 @@ h2 {
     border-radius: 5px;
     background-color: white;
     margin: 0 auto;
-    max-width: min-content;
+
 }
 
 img {
     border-radius: 5px;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 #img-caption {
@@ -47,11 +58,12 @@ img {
 
 #tribute-info h2 {
     font-weight: bold;
+    padding-top: 12px;
 }
 
 #tribute-info ul {
     text-align: left;
-    max-width: 700px;
+    max-width: 900px;
     margin: auto;
 }
 
@@ -60,8 +72,10 @@ img {
 }
 
 blockquote {
-    margin: 40px 7% 0 7%;
+    padding-top: 30px;
+    max-width: 850px;
     font-style: italic;
+    margin: auto;
 }
 
 #read-more {
